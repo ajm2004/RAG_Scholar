@@ -2,6 +2,8 @@
 
 A **Retrieval‑Augmented Generation (RAG)** research assistant that lets you query Wikipedia or arXiv papers through an LLM‑powered QA interface.  The project ships with both a **Streamlit** GUI and a **command‑line tool** and is built entirely on open‑source components.
 
+***NOTE:** This project is incomplete and the application is sbject to errors and changes. This is a test project exploring the concept of RAG and open-source possibility and is not meant for actual use in the domain!*
+
 ---
 
 ## Key Features
