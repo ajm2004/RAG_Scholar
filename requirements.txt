@@ -1,0 +1,28 @@
+# Core LLM / RAG stack
+langchain==0.3.25               # high-level orchestration layer :contentReference[oaicite:0]{index=0}
+langchain-community==0.3.25     # integrations (HuggingFacePipeline, etc.) :contentReference[oaicite:1]{index=1}
+langchain-core==0.3.65          # shared abstractions :contentReference[oaicite:2]{index=2}
+langchain-openai==0.3.23        # OpenAI ↔︎ LangChain bridge :contentReference[oaicite:3]{index=3}
+openai==1.86.0                  # official OpenAI Python SDK :contentReference[oaicite:4]{index=4}
+
+# Embeddings / model back-ends
+sentence-transformers==4.1.0    # SBERT & friends :contentReference[oaicite:5]{index=5}
+transformers==4.52.4            # HF model hub client & pipelines :contentReference[oaicite:6]{index=6}
+torch==2.7.1                    # deep-learning runtime (CPU build) :contentReference[oaicite:7]{index=7}
+faiss-cpu==1.11.0               # vector similarity search (CPU build) :contentReference[oaicite:8]{index=8}
+huggingface-hub==0.33.0         # model / dataset download utility :contentReference[oaicite:9]{index=9}
+
+# Data & I/O utilities
+pandas==2.3.0                   # tabular data handling :contentReference[oaicite:10]{index=10}
+numpy==2.3.0                    # array math backend :contentReference[oaicite:11]{index=11}
+python-dotenv==1.1.0            # load API keys from .env files :contentReference[oaicite:12]{index=12}
+
+# Retrieval sources
+arxiv==2.2.0                    # wrapper for arXiv API :contentReference[oaicite:13]{index=13}
+wikipedia==1.4.0                # Wikipedia API client used by LangChain loader :contentReference[oaicite:14]{index=14}
+
+# App / UI
+streamlit==1.45.1               # interactive web front-end :contentReference[oaicite:15]{index=15}
+
+# Miscellaneous helpers
+tiktoken==0.9.0                 # fast BPE tokenizer for OpenAI models :contentReference[oaicite:16]{index=16}
